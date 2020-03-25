@@ -12,7 +12,7 @@ p {
 </head>
 <body>
 
-<div style="background-image: url('https://images1.livehindustan.com/uploadimage/library/2020/03/21/16_9/16_9_3/corona_virus_precautions_1584779680.jpg');">
+<//div style="background-image: url('https://images1.livehindustan.com/uploadimage/library/2020/03/21/16_9/16_9_3/corona_virus_precautions_1584779680.jpg');">
 
 <center>
 
@@ -42,8 +42,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + " நாட்கள் & " + hours + ":"
-  + minutes + ":" + seconds + " Hours" ;
+  document.getElementById("demo").innerHTML = days + " நாட்கள் &<br>" + hours + ":"
+  + minutes + ":" + seconds + " மணி நேரம் உள்ளது" ;
     
   // If the count down is over, write some text 
   if (distance < 0) {
